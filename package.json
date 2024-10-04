@@ -2,7 +2,8 @@
   "author": "Dylan Piercey <pierceydylan@gmail.com>",
   "name": "@Eventuall-Inc/isomorphic-form-data-browseronly",
   "description": "A library to create readable \"multipart/form-data\" in node and the browser.",
-  "version": "2.0.0",
+  "version": "2.0.3",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git://github.com/form-data/isomorphic-form-data.git"
