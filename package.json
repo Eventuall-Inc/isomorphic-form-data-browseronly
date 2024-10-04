@@ -1,6 +1,6 @@
 {
   "author": "Dylan Piercey <pierceydylan@gmail.com>",
-  "name": "isomorphic-form-data-browseronly",
+  "name": "@Eventuall-Inc/isomorphic-form-data-browseronly",
   "description": "A library to create readable \"multipart/form-data\" in node and the browser.",
   "version": "2.0.0",
   "repository": {
@@ -15,5 +15,8 @@
   "scripts": {
     "test": "echo \"No Test for browser only version\" && exit 0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
