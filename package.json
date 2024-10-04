@@ -1,22 +1,19 @@
 {
   "author": "Dylan Piercey <pierceydylan@gmail.com>",
-  "name": "isomorphic-form-data",
+  "name": "isomorphic-form-data-browseronly",
   "description": "A library to create readable \"multipart/form-data\" in node and the browser.",
   "version": "2.0.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/form-data/isomorphic-form-data.git"
   },
-  "main": "./lib/index",
+  "main": "./lib/browser",
   "browser": "./lib/browser",
-  "scripts": {
-    "test": "./test/run.js"
-  },
   "pre-commit": [
     "test"
   ],
-  "dependencies": {
-    "form-data": "^2.3.2"
+  "scripts": {
+    "test": "echo \"No Test for browser only version\" && exit 0"
   },
   "license": "MIT"
 }
